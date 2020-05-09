@@ -34,3 +34,9 @@ min_version = "0.53"
   name = "LiuZhichao"
   homepage = "https://liuzhichao.com/"
   repo = "https://github.com/liuzc/LeaveIt/"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = true
+    startLevel = 2
