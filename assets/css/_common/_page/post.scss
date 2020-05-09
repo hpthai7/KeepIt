@@ -1,6 +1,50 @@
 /** Post **/
+// Three column test: https://codepen.io/clairecodes/pen/bvWKdr
+.blog-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-sidebar {
+    width: 10%;
+    height: 25vh; // experiment with this value, try changing to 110vh
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+}
+
+.right-sidebar {
+    width: 20%;
+    height: 25vh; // experiment with this value, try changing to 110vh
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+}
+
+#TableOfContents {
+    font-weight: 200;
+    font-size: 12px;
+    color: #2e8555;
+
+    // border-left: 1px solid #e0e0e0;
+    // padding: 10px 0 2px 15px;
+
+    ul {
+        padding-left: 2em;
+    }
+}
 
 .post-warp {
+    // width: 60%;
+    // height: 200vh;
+    // min-height: 1000px;
+    // display: flex;
+    // flex-direction: column;
+
     position: relative;
     width: 100%;
     max-width: 780px;
