@@ -91,16 +91,17 @@
         }
 
         code:not([class]) {
-            padding: 5px 5px;
-            background: #fff;
-            border: 1px solid #ddd;
-            box-shadow: 1px 1px 0 #fff, 2px 2px 0 #ddd;
-            margin-left: 3px;
-            margin-right: 3px;
+            font-family: "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
+            white-space: pre-wrap;
+            word-wrap: normal;
+            word-break: keep-all;
+            padding: 2px 4px;
+            color: #c0341d;
+            background-color: #fbe5e1;
+            border-radius: 4px;
 
             .dark-theme &:not([class]) {
                 background: transparent;
-                box-shadow: 1px 1px 0 $dark-font-secondary-color, 2px 2px 0 $dark-font-secondary-color;
             }
         }
 
@@ -148,7 +149,7 @@
             overflow: hidden;
         }
 
-     
+
 
         img[data-action="zoom"] {
             cursor: zoom-in;
@@ -175,7 +176,7 @@
         .copyright-item {
             margin: 5px 0;
         }
-        
+
         .dark-theme & {
             border-top: 1px solid $dark-border-color;
             border-bottom: 1px solid $dark-border-color;
