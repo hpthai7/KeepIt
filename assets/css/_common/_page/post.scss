@@ -81,13 +81,19 @@
             }
         }
 
+        code {
+            ::-moz-selection { background: #3399FF; }
+            ::selection { background: #3399FF; }
+        }
+
         code,
         pre {
-            padding: 7px;
-            font-size: 13px;
-            font-family: Consolas, Monaco, Menlo, Consolas, monospace;
+            font-size: 12px;
+            font-family: "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console", monospace;
             word-break: break-all;
             word-wrap: break-word;
+            line-height: 1.5em;
+            padding: 10px;
         }
 
         code:not([class]) {
