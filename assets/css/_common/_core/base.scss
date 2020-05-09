@@ -2,16 +2,16 @@
 
 	/* Lato */
 	@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
-	
+
 	/* Montserrat */
 	@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800);
-	
+
 	/* Roboto */
 	@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
 
-  
- 
-  
+
+
+
   html {
     &::-webkit-scrollbar {
       width: 8px;
@@ -26,15 +26,16 @@
       }
     }
   }
-  
+
   ::selection {
     background: rgba(0, 149, 255, 0.1);
   }
-  
+
   html {
+    // font-family: "Guardian Text Egyptian Web", Georgia, serif;
     font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft Yahei", "WenQuanYi Micro Hei", Arial, Verdana, sans-serif;
   }
-  
+
   body {
     font-size: 11pt;
     font-weight: 400;
@@ -65,7 +66,7 @@
         color: $dark-font-color;
      }
   }
-  
+
   a {
     color: $light-global-link-color;
     text-decoration: none;
@@ -88,7 +89,7 @@
       }
     }
   }
-  
+
   blockquote {
     font-size: 1rem;
     display: block;
@@ -110,7 +111,7 @@
       font: 6em/1.08em 'PT Sans', sans-serif;
       color: $light-post-link-color;
       text-align: center;
-      
+
        .dark-theme &{
          color: $dark-post-link-color;
        }
